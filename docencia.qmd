@@ -34,7 +34,7 @@ Han sido dirigidos y supervisados trabajos en las siguientes áreas:
 
 ## Filosofía docente
 
-Se busca que los métodos sean comprendidos antes de que las herramientas sean utilizadas. Los problemas reales son convertidos en experiencias de aprendizaje, y los resultados deben poder ser explicados, verificados y reproducidos.
+Se prioriza la comprensión de los métodos antes del uso de las herramientas. Los problemas reales son convertidos en experiencias de aprendizaje cuyos resultados pueden ser explicados, verificados y reproducidos.
 
 ::: {.teaching-pillars}
 ::: {}

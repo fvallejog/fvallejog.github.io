@@ -43,7 +43,7 @@ La investigación considera rendimiento energético, propiedades del producto, e
 
 ### Comprender
 
-El problema, los datos disponibles y las decisiones que deberán ser respaldadas son definidos antes de seleccionar una herramienta.
+Cada trabajo parte de una definición clara del problema, los datos disponibles y las decisiones que necesitan respaldo. La herramienta es seleccionada a partir de ese contexto.
 :::
 ::: {.process-step}
 <span>02</span>

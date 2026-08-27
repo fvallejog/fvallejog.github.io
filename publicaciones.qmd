@@ -26,7 +26,7 @@ Los artículos han sido desarrollados mediante colaboración con investigadores 
 :::
 :::
 
-<p class="metrics-note">Indicadores referenciales del último corte curricular de 2026. Los valores pueden variar entre bases; Scopus y ResearchGate deben ser consultados para la actualización en tiempo real.</p>
+<p class="metrics-note">Indicadores referenciales del último corte curricular de 2026. Los valores pueden variar entre bases; se incluyen enlaces directos a Scopus y ResearchGate para consultar la información actualizada.</p>
 
 ::: {.academic-links}
 [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57211057346){.btn .btn-primary}

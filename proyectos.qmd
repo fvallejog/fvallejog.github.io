@@ -70,7 +70,7 @@ En estos desarrollos han debido ser articulados equipos técnicos, bases de dato
 
 ### Diagnóstico
 
-Son delimitados el problema, los usuarios, la información disponible y los criterios con los que será evaluado el resultado.
+El trabajo comienza con la delimitación del problema, los usuarios, la información disponible y los criterios de evaluación del resultado.
 :::
 ::: {.process-step}
 <span>02</span>

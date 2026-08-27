@@ -11,7 +11,7 @@ listing:
 page-layout: full
 ---
 
-Este espacio reunirá notas técnicas, ejemplos reproducibles y reflexiones derivadas de la investigación aplicada, la docencia y la ingeniería. También serán enlazados materiales de divulgación en otros formatos cuando contribuyan a explicar un problema científico o ambiental.
+Este espacio reúne notas técnicas, ejemplos reproducibles y reflexiones derivadas de la investigación aplicada, la docencia y la ingeniería. También incorpora materiales de divulgación en otros formatos cuando contribuyen a explicar un problema científico o ambiental.
 
 ## Podcast destacado
 
