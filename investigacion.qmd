@@ -1,0 +1,77 @@
+---
+title: "Investigación"
+description-meta: "Líneas de investigación en calidad del aire, ciencia de datos, procesos y bioenergía."
+---
+
+La investigación es orientada a la integración de modelos físicos, métodos estadísticos y conocimiento de procesos. Se busca que los resultados puedan ser reproducidos, transferidos y utilizados en decisiones ambientales e industriales.
+
+## Calidad del aire y modelación atmosférica
+
+Son estudiados los procesos de emisión, transporte y dispersión de contaminantes atmosféricos. Han sido desarrollados inventarios de emisiones, sistemas de pronóstico y evaluaciones de impacto mediante WRF, CALPUFF, modelos estadísticos y técnicas de aprendizaje automático.
+
+La atención es concentrada especialmente en situaciones donde los modelos convencionales pierden capacidad predictiva: concentraciones elevadas, episodios críticos y cambios abruptos en las condiciones meteorológicas u operacionales. La calidad de los datos, la incertidumbre y la utilidad de los resultados para la toma de decisiones son consideradas conjuntamente.
+
+**Temas:** material particulado, contaminación urbana e industrial, episodios críticos, emisiones atmosféricas y medidas de mitigación.
+
+## Ciencia de datos e inteligencia artificial
+
+Son integradas series temporales, aprendizaje automático, redes neuronales y automatización para transformar datos ambientales e industriales en información operacionalmente útil.
+
+Los modelos son evaluados no solamente por su ajuste promedio, sino también por su capacidad para representar eventos relevantes, generalizar fuera de la muestra y producir resultados interpretables. La automatización es utilizada para reducir tareas repetitivas y fortalecer la trazabilidad de los análisis.
+
+**Herramientas:** R, Python, ARIMA, redes neuronales, análisis multivariado, visualización interactiva y reportería automática.
+
+## Simulación y optimización de procesos
+
+La modelación matemática y la dinámica de fluidos computacional son utilizadas para analizar sistemas complejos, identificar variables críticas y evaluar escenarios antes de su implementación.
+
+Mediante modelos de diferente nivel de detalle pueden ser comparadas configuraciones, condiciones de operación y alternativas tecnológicas. La simulación es entendida como un instrumento para formular mejores preguntas, no como un sustituto de la validación experimental o de campo.
+
+**Herramientas:** OpenFOAM, DWSIM, OpenModelica, optimización multiobjetivo y análisis de sensibilidad.
+
+## Bioenergía y economía circular
+
+La valorización de biomasa y residuos es estudiada mediante carbonización hidrotérmica, pirólisis, gasificación y producción de materiales carbonosos. Los beneficios energéticos y ambientales son evaluados mediante análisis de ciclo de vida.
+
+La investigación considera rendimiento energético, propiedades del producto, emisiones, consumo de recursos y viabilidad de integración en cadenas productivas. De esta manera, la economía circular es examinada desde el desempeño real del proceso y no únicamente desde su potencial conceptual.
+
+## Enfoque metodológico
+
+::: {.process-grid}
+::: {.process-step}
+<span>01</span>
+
+### Comprender
+
+El problema, los datos disponibles y las decisiones que deberán ser respaldadas son definidos antes de seleccionar una herramienta.
+:::
+::: {.process-step}
+<span>02</span>
+
+### Modelar
+
+Los mecanismos físicos y estadísticos relevantes son representados con el nivel de complejidad necesario.
+:::
+::: {.process-step}
+<span>03</span>
+
+### Validar
+
+El desempeño, la incertidumbre y los límites de aplicación son evaluados mediante evidencia independiente.
+:::
+::: {.process-step}
+<span>04</span>
+
+### Transferir
+
+Los resultados son convertidos en publicaciones, herramientas, reportes o sistemas utilizables por otras personas.
+:::
+:::
+
+**Temas:** *waste-to-energy*, combustibles sólidos, carbón activado, biomasa residual y cadenas de valorización.
+
+## Colaboración
+
+Se mantiene interés en colaboraciones académicas e industriales relacionadas con calidad del aire, modelación ambiental, sistemas predictivos, valorización de residuos y desarrollo de herramientas abiertas para análisis de datos.
+
+[Proponer una colaboración](contacto.qmd){.btn .btn-primary}

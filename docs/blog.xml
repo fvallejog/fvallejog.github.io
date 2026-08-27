@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Fidel Vallejo Gallardo</title>
+<link>https://fvallejog.github.io/blog.html</link>
+<atom:link href="https://fvallejog.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Ingeniería de procesos, calidad del aire, ciencia de datos y sostenibilidad aplicada.</description>
+<image>
+<url>https://fvallejog.github.io/assets/fidel-vallejo.jpg</url>
+<title>Fidel Vallejo Gallardo</title>
+<link>https://fvallejog.github.io/blog.html</link>
+</image>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Thu, 27 Aug 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Una bitácora para conectar ingeniería, datos y ambiente</title>
+  <dc:creator>Fidel Vallejo Gallardo</dc:creator>
+  <link>https://fvallejog.github.io/posts/bienvenida/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Este sitio ha sido concebido como un espacio para compartir experiencias, métodos y resultados relacionados con ingeniería de procesos, calidad del aire, ciencia de datos y sostenibilidad.</p>
+<p>Las publicaciones serán orientadas a problemas concretos. Serán incluidos ejemplos reproducibles, notas metodológicas, herramientas abiertas y reflexiones derivadas de la investigación, la docencia y el desarrollo de proyectos aplicados.</p>
+<p>El propósito no será solamente presentar resultados terminados. También serán documentadas decisiones metodológicas, limitaciones y aprendizajes que puedan ser útiles para estudiantes, investigadores y profesionales.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>Investigación</category>
+  <category>Ingeniería</category>
+  <category>Datos</category>
+  <guid>https://fvallejog.github.io/posts/bienvenida/</guid>
+  <pubDate>Thu, 27 Aug 2026 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

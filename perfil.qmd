@@ -1,0 +1,78 @@
+---
+title: "Perfil"
+description-meta: "Formación, experiencia académica y trayectoria profesional de Fidel Vallejo Gallardo."
+---
+
+## Síntesis profesional
+
+Soy Ingeniero Químico por la Escuela Politécnica Nacional de Ecuador, Magíster en Ciencias de la Ingeniería con mención en Ingeniería Química y Doctor en Ciencias de la Ingeniería con mención en Ingeniería de Procesos por la Universidad de Santiago de Chile.
+
+Mi trabajo se ha concentrado en la aplicación de técnicas computacionales avanzadas, simulación numérica, análisis de datos y modelación matemática para la optimización de procesos y la solución de problemas ambientales. La investigación, la docencia y la dirección de proyectos han sido combinadas con experiencia en consultoría e implementación tecnológica.
+
+## Un perfil con dos perspectivas
+
+La experiencia académica permite que los problemas sean abordados con rigor metodológico, revisión crítica y transparencia respecto de las limitaciones. La experiencia industrial exige que esos mismos análisis sean traducidos en resultados oportunos, comprensibles y utilizables. Ambas perspectivas han sido integradas para desarrollar soluciones que mantengan profundidad científica sin perder utilidad operacional.
+
+Esta combinación ha permitido trabajar en equipos multidisciplinarios, dirigir investigación aplicada y coordinar proyectos donde convergen ingeniería, meteorología, informática, estadística y gestión ambiental.
+
+## Posiciones actuales
+
+::: {.timeline}
+::: {.timeline-item}
+### Profesor e investigador
+
+**Universidad Nacional de Chimborazo · junio de 2023–actualidad**
+
+Docencia en la Facultad de Ingeniería, dirección de trabajos de titulación, producción científica y desarrollo de proyectos en ingeniería industrial, procesos y calidad ambiental.
+:::
+
+::: {.timeline-item}
+### Gerente de Operaciones
+
+**Partículas SpA · abril de 2022–actualidad**
+
+Coordinación técnica y operacional de proyectos de calidad del aire, sistemas de pronóstico, plataformas de reportería automática y soluciones de datos ambientales.
+:::
+
+::: {.timeline-item}
+### Ingeniero de Proyectos
+
+**Partículas SpA · agosto de 2018–marzo de 2022**
+
+Desarrollo y ejecución de estudios de modelación atmosférica, análisis estadístico, inventarios de emisiones y herramientas de soporte para la gestión ambiental.
+:::
+:::
+
+## Formación académica
+
+### Doctor en Ciencias de la Ingeniería
+
+**Mención Ingeniería de Procesos · Universidad de Santiago de Chile · 2017–2020**  
+Distinción máxima. Tesis sobre el análisis matemático de la carbonización hidrotérmica de biomasas.
+
+### Magíster en Ciencias de la Ingeniería
+
+**Mención Ingeniería Química · Universidad de Santiago de Chile · 2015–2016**  
+Distinción máxima y reconocimiento como mejor egresado de la promoción. Tesis sobre modelación CFD de un biofiltro para purificación de aire interior.
+
+### Ingeniero Químico
+
+**Escuela Politécnica Nacional · 2007–2013**  
+Graduado *cum laude*.
+
+## Experiencia seleccionada
+
+- Profesor en programas de pregrado, posgrado y educación continua en Ecuador y Chile.
+- Ex Editor Jefe de la revista científica *Novasinergia*.
+- Investigador en proyectos FONDEF, cooperación internacional y desarrollo tecnológico.
+- Experiencia previa en control químico, gestión de calidad e investigación y desarrollo industrial.
+
+La trayectoria previa en plantas industriales, universidades y proyectos de innovación ha proporcionado una visión completa del ciclo de desarrollo: desde la identificación del problema y la generación de evidencia hasta la validación de una solución en condiciones reales.
+
+## Áreas de especialización
+
+- Gestión y modelación avanzada de la calidad del aire.
+- Estadística, ciencia de datos, inteligencia artificial y programación en R y Python.
+- CFD, modelación matemática y optimización de procesos.
+- Valorización energética de residuos, bioenergía y economía circular.
+- Dirección y gestión de proyectos de investigación y desarrollo.

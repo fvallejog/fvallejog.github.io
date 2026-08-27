@@ -1,0 +1,15 @@
+---
+title: "Una bitácora para conectar ingeniería, datos y ambiente"
+description: "Presentación de este espacio de trabajo y divulgación técnica."
+author: "Fidel Vallejo Gallardo"
+date: "2026-08-27"
+categories: [Investigación, Ingeniería, Datos]
+draft: false
+---
+
+Este sitio ha sido concebido como un espacio para compartir experiencias, métodos y resultados relacionados con ingeniería de procesos, calidad del aire, ciencia de datos y sostenibilidad.
+
+Las publicaciones serán orientadas a problemas concretos. Serán incluidos ejemplos reproducibles, notas metodológicas, herramientas abiertas y reflexiones derivadas de la investigación, la docencia y el desarrollo de proyectos aplicados.
+
+El propósito no será solamente presentar resultados terminados. También serán documentadas decisiones metodológicas, limitaciones y aprendizajes que puedan ser útiles para estudiantes, investigadores y profesionales.
+

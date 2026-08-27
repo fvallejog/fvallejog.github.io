@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+
+website:
+  title: "Fidel Vallejo Gallardo"
+  site-url: "https://fvallejog.github.io"
+  description: "Ingeniería de procesos, calidad del aire, ciencia de datos y sostenibilidad aplicada."
+  image: "assets/fidel-vallejo.jpg"
+  open-graph:
+    locale: es_ES
+    site-name: "Fidel Vallejo Gallardo"
+  search: false
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    pinned: true
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: Perfil
+        href: perfil.qmd
+      - text: Investigación
+        href: investigacion.qmd
+      - text: Proyectos
+        href: proyectos.qmd
+      - text: Publicaciones
+        href: publicaciones.qmd
+      - text: Docencia
+        href: docencia.qmd
+      - text: Blog
+        href: blog.qmd
+    right:
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: "https://www.linkedin.com/in/fvallejo-gallardo/"
+      - icon: github
+        aria-label: GitHub
+        href: "https://github.com/fvallejog"
+      - icon: envelope
+        aria-label: Correo electrónico
+        href: "mailto:fvallejog@yahoo.com"
+  page-footer:
+    border: true
+    left: "© 2026 Fidel Vallejo Gallardo · Sitio profesional personal"
+    right:
+      - text: ResearchGate
+        href: "https://www.researchgate.net/profile/Fidel-Vallejo?ev=hdr_xprf"
+      - text: Scopus
+        href: "https://www.scopus.com/authid/detail.uri?authorId=57211057346"
+      - text: ORCID
+        href: "https://orcid.org/0000-0001-5835-298X"
+
+lang: es
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: true
+    code-overflow: wrap
+    include-after-body: typing.html
+
+execute:
+  freeze: auto

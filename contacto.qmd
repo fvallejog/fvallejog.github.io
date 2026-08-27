@@ -1,0 +1,46 @@
+---
+title: "Contacto"
+description-meta: "Canales de contacto profesional, académico y empresarial."
+toc: false
+---
+
+## Contacto directo
+
+Para consultas académicas, colaboraciones de investigación o asuntos profesionales pueden utilizarse los siguientes canales.
+
+::: {.contact-grid}
+::: {.contact-card}
+### Contacto principal
+
+[fvallejog@yahoo.com](mailto:fvallejog@yahoo.com)
+:::
+
+::: {.contact-card}
+### Universidad
+
+[fidel.vallejo@unach.edu.ec](mailto:fidel.vallejo@unach.edu.ec)
+:::
+
+::: {.contact-card}
+### Partículas SpA
+
+[fidel.vallejo@particulas.cl](mailto:fidel.vallejo@particulas.cl)
+:::
+:::
+
+## Perfiles
+
+- [LinkedIn](https://www.linkedin.com/in/fvallejo-gallardo/)
+- [ResearchGate](https://www.researchgate.net/profile/Fidel-Vallejo?ev=hdr_xprf)
+- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57211057346)
+- [GitHub](https://github.com/fvallejog)
+- [ORCID](https://orcid.org/0000-0001-5835-298X)
+
+## Afiliaciones actuales
+
+- **Universidad Nacional de Chimborazo** — Profesor e investigador.
+- **Partículas SpA** — Gerente de Operaciones.
+
+::: {.callout-note}
+Este es un sitio profesional personal. Los contenidos y opiniones presentados no representan necesariamente la posición institucional de las organizaciones con las que se mantiene afiliación.
+:::

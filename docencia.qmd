@@ -1,0 +1,55 @@
+---
+title: "Docencia"
+description-meta: "Experiencia docente, formación y dirección de trabajos de investigación."
+---
+
+La docencia ha sido desarrollada en programas de pregrado, posgrado y educación continua en Ecuador y Chile. El aprendizaje aplicado, el análisis crítico y la reproducibilidad computacional son priorizados en las actividades formativas.
+
+Las asignaturas y cursos han sido impartidos a estudiantes de ingeniería, profesionales del sector ambiental y participantes de programas de especialización. Los contenidos son organizados para que los conceptos puedan ser conectados con decisiones de diseño, análisis y operación.
+
+## Áreas de enseñanza
+
+- Procesos industriales y simulación de procesos.
+- Gestión y modelación de la calidad del aire.
+- Estadística, diseño experimental y análisis de datos con R.
+- Modelación CFD de procesos industriales y ambientales.
+- Ingeniería de reacciones y fundamentos de ingeniería química.
+- Metodología de investigación y escritura científica.
+
+## Formación especializada
+
+Han sido dictados cursos profesionales en modelación atmosférica con CALPUFF, fundamentos de física atmosférica, análisis estadístico con R y herramientas computacionales aplicadas a la ingeniería.
+
+En la formación continua son utilizados ejercicios progresivos, discusión de errores frecuentes y casos basados en situaciones reales. De esta forma, la capacitación es orientada a la adquisición de criterios y no solamente al seguimiento mecánico de instrucciones.
+
+## Dirección de trabajos
+
+Han sido dirigidos y supervisados trabajos en las siguientes áreas:
+
+- Pronóstico de calidad del aire mediante ARIMA y redes neuronales.
+- Inventarios de emisiones y modelación atmosférica.
+- Carbonización hidrotérmica, gasificación y valorización de residuos.
+- Simulación de plantas y optimización de procesos industriales.
+- Cuadros de mando y análisis de datos ambientales.
+
+## Filosofía docente
+
+Se busca que los métodos sean comprendidos antes de que las herramientas sean utilizadas. Los problemas reales son convertidos en experiencias de aprendizaje, y los resultados deben poder ser explicados, verificados y reproducidos.
+
+::: {.teaching-pillars}
+::: {}
+### Fundamento
+
+Los supuestos y principios son discutidos antes de ejecutar un procedimiento o interpretar un resultado.
+:::
+::: {}
+### Aplicación
+
+Los conceptos son ejercitados mediante datos, procesos y problemas que representan contextos profesionales.
+:::
+::: {}
+### Comunicación
+
+La capacidad de justificar decisiones y comunicar incertidumbre es considerada parte del aprendizaje técnico.
+:::
+:::

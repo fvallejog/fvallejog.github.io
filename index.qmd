@@ -1,0 +1,121 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero}
+::: {.hero-copy}
+<p class="eyebrow">INGENIERÍA · CIENCIA · APLICACIÓN</p>
+
+# Fidel Vallejo Gallardo, PhD
+
+<p class="hero-lead">Integro ingeniería, datos y modelación para desarrollar <span class="typing-text" data-phrases='["pronósticos ambientales más precisos.","procesos industriales más eficientes.","decisiones sustentadas en evidencia.","soluciones científicas aplicadas."]'>pronósticos ambientales más precisos.</span><span class="typing-cursor" aria-hidden="true">|</span></p>
+
+<div class="role-line"><strong>Profesor e investigador</strong><span>Universidad Nacional de Chimborazo</span></div>
+<div class="role-line"><strong>Gerente de Operaciones</strong><span>Partículas SpA</span></div>
+
+<div class="hero-actions">
+  <a class="btn btn-primary" href="perfil.html">Conocer mi trayectoria</a>
+  <a class="btn btn-outline-primary" href="publicaciones.html">Ver publicaciones</a>
+</div>
+
+<div class="profile-links" aria-label="Perfiles profesionales y académicos">
+  <a href="https://www.researchgate.net/profile/Fidel-Vallejo?ev=hdr_xprf">ResearchGate</a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57211057346">Scopus</a>
+  <a href="https://www.linkedin.com/in/fvallejo-gallardo/">LinkedIn</a>
+  <a href="https://github.com/fvallejog">GitHub</a>
+</div>
+:::
+
+::: {.hero-photo}
+<img src="assets/fidel-vallejo.jpg" alt="Retrato profesional de Fidel Vallejo Gallardo" />
+:::
+:::
+
+::: {.content-band}
+## Investigación orientada a problemas reales
+
+Mi trabajo integra fundamentos de ingeniería, modelación computacional y análisis de datos para abordar desafíos ambientales e industriales. La investigación académica es conectada con el desarrollo de soluciones aplicadas para organizaciones públicas y privadas.
+
+::: {.research-grid}
+::: {.research-card}
+<span class="card-number">01</span>
+
+### Calidad del aire
+
+Modelación de dispersión, inventarios de emisiones, pronóstico de episodios críticos y evaluación de medidas de control.
+:::
+
+::: {.research-card}
+<span class="card-number">02</span>
+
+### Ciencia de datos e IA
+
+Modelos estadísticos, aprendizaje automático, redes neuronales y automatización de análisis ambientales.
+:::
+
+::: {.research-card}
+<span class="card-number">03</span>
+
+### Procesos y simulación
+
+Modelación matemática, CFD y optimización multiobjetivo de sistemas industriales y ambientales.
+:::
+
+::: {.research-card}
+<span class="card-number">04</span>
+
+### Bioenergía y circularidad
+
+Valorización de residuos mediante carbonización hidrotérmica, pirólisis, gasificación y análisis de ciclo de vida.
+:::
+:::
+:::
+
+::: {.two-column-section}
+::: {}
+## Academia e industria
+
+La docencia, la formación de investigadores y la producción científica son desarrolladas en la Universidad Nacional de Chimborazo. Paralelamente, desde Partículas SpA son coordinados proyectos de ingeniería y plataformas tecnológicas para la gestión de la calidad del aire.
+
+[Trayectoria profesional →](perfil.qmd)
+:::
+
+::: {.highlight-panel}
+<p class="eyebrow">PROYECTO ABIERTO</p>
+
+### AirEcuador
+
+Herramienta en R para descargar, extraer y analizar datos abiertos de calidad del aire de Quito.
+
+[Explorar el repositorio](https://github.com/fvallejog/AirEcuador){.btn .btn-light}
+:::
+:::
+
+::: {.metrics-strip}
+::: {}
+<strong>+30</strong>
+<span>publicaciones científicas</span>
+:::
+::: {}
+<strong>+10 años</strong>
+<span>de docencia e investigación</span>
+:::
+::: {}
+<strong>2018–actualidad</strong>
+<span>experiencia en proyectos ambientales</span>
+:::
+:::
+
+::: {.toolkit-section}
+<p class="eyebrow">HERRAMIENTAS Y MÉTODOS</p>
+
+## Un ecosistema técnico para investigar y construir
+
+<p>Las herramientas son seleccionadas según la naturaleza del problema. Se combinan lenguajes de programación, modelos físicos y plataformas de simulación para mantener trazabilidad entre los datos, los supuestos y las decisiones.</p>
+
+::: {.toolkit-tags}
+<span>R</span><span>Python</span><span>WRF</span><span>CALPUFF</span><span>OpenFOAM</span><span>DWSIM</span><span>Quarto</span><span>GitHub</span>
+:::
+:::

@@ -1,0 +1,30 @@
+---
+title: "Blog"
+description-meta: "Notas sobre ingeniería, calidad del aire, datos y escritura científica."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
+  fields: [image, date, title, description, categories]
+page-layout: full
+---
+
+Este espacio reunirá notas técnicas, ejemplos reproducibles y reflexiones derivadas de la investigación aplicada, la docencia y la ingeniería. También serán enlazados materiales de divulgación en otros formatos cuando contribuyan a explicar un problema científico o ambiental.
+
+## Podcast destacado
+
+::: {.podcast-card}
+<p class="eyebrow">CLIMA · QUITO · DIVULGACIÓN CIENTÍFICA</p>
+
+### Dos Décadas que Calientan Quito: el efecto del Cambio Climático
+
+En este podcast es abordada la evolución reciente del clima de Quito y son comunicados los principales hallazgos relacionados con las tendencias observadas durante dos décadas. El formato permite acercar resultados científicos a una audiencia más amplia y complementar la publicación académica.
+
+<iframe style="border-radius: 12px" width="100%" height="152" title="Spotify: Dos Décadas que Calientan Quito: el efecto del Cambio Climático" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" src="https://open.spotify.com/embed/show/3d2N8Vxi9oZu8UK1fqOdjf?utm_source=oembed"></iframe>
+
+[Abrir directamente en Spotify](https://open.spotify.com/show/3d2N8Vxi9oZu8UK1fqOdjf?si=VwwBAxvQRT6zwulEE__h2g)
+:::
+
+## Notas y artículos

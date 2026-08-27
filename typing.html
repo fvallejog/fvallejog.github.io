@@ -1,0 +1,43 @@
+<script>
+(() => {
+  const target = document.querySelector('.typing-text');
+  if (!target) return;
+
+  let phrases;
+  try {
+    phrases = JSON.parse(target.dataset.phrases || '[]');
+  } catch {
+    return;
+  }
+
+  if (!phrases.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    target.textContent = phrases[0] || target.textContent;
+    return;
+  }
+
+  let phraseIndex = 0;
+  let characterIndex = 0;
+  let deleting = false;
+
+  const type = () => {
+    const phrase = phrases[phraseIndex];
+    characterIndex += deleting ? -1 : 1;
+    target.textContent = phrase.slice(0, characterIndex);
+
+    let delay = deleting ? 32 : 58;
+    if (!deleting && characterIndex === phrase.length) {
+      deleting = true;
+      delay = 1700;
+    } else if (deleting && characterIndex === 0) {
+      deleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      delay = 350;
+    }
+
+    window.setTimeout(type, delay);
+  };
+
+  target.textContent = '';
+  window.setTimeout(type, 450);
+})();
+</script>
