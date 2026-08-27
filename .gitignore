@@ -1,0 +1,15 @@
+.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+/*.html
+!typing.html
+/*.feed-full-staged
+/site_libs/
+/posts/**/index.html
+
+
+/.quarto/
+**/*.quarto_ipynb
