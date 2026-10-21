@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fidel Vallejo Gallardo, PhD",
-    "section": "",
-    "text": "INGENIERÍA · CIENCIA · APLICACIÓN\n\n\n\n\nIntegro ingeniería, datos y modelación para desarrollar pronósticos ambientales más precisos.|\n\n\nProfesor e investigadorUniversidad Nacional de Chimborazo\n\n\nGerente de OperacionesPartículas SpA\n\n\nConocer mi trayectoria Ver publicaciones\n\n\nResearchGate Scopus LinkedIn GitHub"
-  },
-  {
-    "objectID": "index.html#investigación-orientada-a-problemas-reales",
-    "href": "index.html#investigación-orientada-a-problemas-reales",
-    "title": "Fidel Vallejo Gallardo, PhD",
-    "section": "Investigación orientada a problemas reales",
-    "text": "Investigación orientada a problemas reales\nMi trabajo integra fundamentos de ingeniería, modelación computacional y análisis de datos para abordar desafíos ambientales e industriales.\n\n\n01\n\nCalidad del aire\nModelación de dispersión, inventarios de emisiones, pronóstico de episodios críticos y evaluación de medidas de control.\n\n\n\n02\n\nCiencia de datos e IA\nModelos estadísticos, aprendizaje automático, redes neuronales y automatización de análisis ambientales.\n\n\n\n03\n\nProcesos y simulación\nModelación matemática, CFD y optimización multiobjetivo de sistemas industriales y ambientales.\n\n\n\n04\n\nBioenergía y circularidad\nValorización de residuos mediante carbonización hidrotérmica, pirólisis, gasificación y análisis de ciclo de vida."
-  },
-  {
-    "objectID": "index.html#academia-e-industria",
-    "href": "index.html#academia-e-industria",
-    "title": "Fidel Vallejo Gallardo, PhD",
-    "section": "Academia e industria",
-    "text": "Academia e industria\nLa docencia, la formación de investigadores y la producción científica son desarrolladas en la Universidad Nacional de Chimborazo. Paralelamente, desde Partículas SpA son coordinados proyectos de ingeniería y plataformas tecnológicas para la gestión de la calidad del aire.\nTrayectoria profesional →"
-  },
-  {
-    "objectID": "index.html#un-ecosistema-técnico-para-investigar-y-construir",
-    "href": "index.html#un-ecosistema-técnico-para-investigar-y-construir",
-    "title": "Fidel Vallejo Gallardo, PhD",
-    "section": "Un ecosistema técnico para investigar y construir",
-    "text": "Un ecosistema técnico para investigar y construir\n\nLas herramientas son seleccionadas según la naturaleza del problema. Se combinan lenguajes de programación, modelos físicos y plataformas de simulación para mantener trazabilidad entre los datos, los supuestos y las decisiones.\n\n\nRPythonWRFCALPUFFOpenFOAMDWSIMQuartoGitHub"
-  },
-  {
     "objectID": "docencia.html",
     "href": "docencia.html",
     "title": "Docencia",
@@ -63,6 +35,27 @@
     "text": "Filosofía docente\nSe prioriza la comprensión de los métodos antes del uso de las herramientas. Los problemas reales son convertidos en experiencias de aprendizaje cuyos resultados pueden ser explicados, verificados y reproducidos.\n\n\nFundamento\nLos supuestos y principios son discutidos antes de ejecutar un procedimiento o interpretar un resultado.\n\n\nAplicación\nLos conceptos son ejercitados mediante datos, procesos y problemas que representan contextos profesionales.\n\n\nComunicación\nLa capacidad de justificar decisiones y comunicar incertidumbre es considerada parte del aprendizaje técnico."
   },
   {
+    "objectID": "publicaciones.html",
+    "href": "publicaciones.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "La producción científica comprende calidad del aire, bioenergía, economía circular, simulación de procesos y evaluación ambiental.\nLos artículos han sido desarrollados mediante colaboración con investigadores de Ecuador, Chile y otros países. En ellos han sido combinados estudios experimentales, modelación numérica, análisis estadístico, revisiones sistemáticas y evaluación ambiental.\nIndicadores referenciales del corte registrado en la matriz maestra. Los valores pueden variar entre bases; se incluyen enlaces directos para consultar la información actualizada."
+  },
+  {
+    "objectID": "publicaciones.html#publicaciones-recientes-seleccionadas",
+    "href": "publicaciones.html#publicaciones-recientes-seleccionadas",
+    "title": "Publicaciones",
+    "section": "Publicaciones recientes seleccionadas",
+    "text": "Publicaciones recientes seleccionadas\nLa selección siguiente ofrece una entrada rápida a las principales líneas de investigación. Se muestran únicamente los registros marcados como Publicar = Sí en la matriz maestra.\n\nA Century of Vehicular Emissions in Brazil: Unveiling the Impacts of Unique Fuel Mix on Air Quality.\nEnvironmental Science & Technology, 2026.\nhttps://doi.org/10.1021/acs.est.5c08400\n\n\nEvaluating and Optimizing Air Quality Forecasting for Critical Particulate Matter Episodes in the Santiago Metropolitan Region, Chile.\nSustainability, 2026, 18(8), 3652.\nhttps://doi.org/10.3390/su18083652\n\n\nScientific Mapping of Mining Expansion in Ecuador: A PRISMA Systematic Review of Territorial Change and Biosanitary Implications in Latin America.\nEnvironments, 2026, 13(5), 235.\nhttps://doi.org/10.3390/environments13050235\n\n\nMicroplastic Contamination in Latin American Drinking Water and Food Chains: Exposure Assessment, Toxicological Mechanisms, and Public Health Implications in Vulnerable Populations.\nMicroplastics, 2026, 5(2), 117.\nhttps://doi.org/10.3390/microplastics5020117\n\n\nUrban Air Pollution in the Global South: A Never-Ending Crisis?\nAtmosphere, 2025, 16(5), 487.\nhttps://doi.org/10.3390/atmos16050487\n\n\nProlonged Power Outages and Air Quality: Insights from Quito’s 2023–2024 Energy Crisis.\nAtmosphere, 2025, 16(3), 274.\nhttps://doi.org/10.3390/atmos16030274\n\n\nEnhancing Air Quality Predictions in Chile: Integrating ARIMA and Artificial Neural Network Models for Quintero and Coyhaique Cities.\nPLOS ONE, 2025, 20(1).\nhttps://doi.org/10.1371/journal.pone.0314278\n\n\nSimulation of the Air Quality and Evaluation of a Future District Heating System in Valdivia, Chile.\nAtmospheric Pollution Research, 2024, 15(10).\nhttps://doi.org/10.1016/j.apr.2024.102255\n\n\nAn Environmental Assessment for Municipal Organic Waste and Sludge Treated by Hydrothermal Carbonization.\nScience of the Total Environment, 2022.\nhttps://doi.org/10.1016/j.scitotenv.2022.154474\n\n\nValorization of Oat Husk by Hydrothermal Carbonization: Optimization of Process Parameters and Anaerobic Digestion of Spent Liquors.\nBioresource Technology, 2021.\nhttps://doi.org/10.1016/j.biortech.2021.126112"
+  },
+  {
+    "objectID": "publicaciones.html#identificadores-académicos",
+    "href": "publicaciones.html#identificadores-académicos",
+    "title": "Publicaciones",
+    "section": "Identificadores académicos",
+    "text": "Identificadores académicos\n\nScopus Author ID: 57211057346\nORCID: 0000-0001-5835-298X"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
@@ -82,6 +75,13 @@
     "title": "Blog",
     "section": "Notas y artículos",
     "text": "Notas y artículos"
+  },
+  {
+    "objectID": "posts/bienvenida/index.html",
+    "href": "posts/bienvenida/index.html",
+    "title": "Una bitácora para conectar ingeniería, datos y ambiente",
+    "section": "",
+    "text": "Este sitio ha sido concebido como un espacio para compartir experiencias, métodos y resultados relacionados con ingeniería de procesos, calidad del aire, ciencia de datos y sostenibilidad.\nLas publicaciones abordan problemas concretos mediante ejemplos reproducibles, notas metodológicas, herramientas abiertas y reflexiones derivadas de la investigación, la docencia y el desarrollo de proyectos aplicados.\nEl propósito va más allá de presentar resultados terminados. Las decisiones metodológicas, las limitaciones y los aprendizajes también forman parte del análisis, con utilidad para estudiantes, investigadores y profesionales.\n\n\n\n Volver arriba"
   },
   {
     "objectID": "proyectos.html",
@@ -119,25 +119,60 @@
     "text": "Cómo son abordados los proyectos\n\n\n01\n\nDiagnóstico\nEl trabajo comienza con la delimitación del problema, los usuarios, la información disponible y los criterios de evaluación del resultado.\n\n\n\n02\n\nDesarrollo\nSon integrados datos, modelos y conocimiento experto mediante una arquitectura reproducible y documentada.\n\n\n\n03\n\nValidación\nEl desempeño es contrastado con observaciones, escenarios independientes y requisitos de uso reales.\n\n\n\n04\n\nImplementación\nLos resultados son convertidos en reportes, herramientas o flujos de trabajo que puedan ser mantenidos y utilizados."
   },
   {
-    "objectID": "publicaciones.html",
-    "href": "publicaciones.html",
-    "title": "Publicaciones",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fidel Vallejo Gallardo, PhD",
     "section": "",
-    "text": "La producción científica comprende calidad del aire, bioenergía, economía circular, simulación de procesos y evaluación ambiental.\nLos artículos han sido desarrollados mediante colaboración con investigadores de Ecuador, Chile y otros países. En ellos han sido combinados estudios experimentales, modelación numérica, análisis estadístico, revisiones sistemáticas y evaluación ambiental.\nIndicadores referenciales del corte registrado en la matriz maestra. Los valores pueden variar entre bases; se incluyen enlaces directos para consultar la información actualizada."
+    "text": "INGENIERÍA · CIENCIA · APLICACIÓN\n\n\n\n\nIntegro ingeniería, datos y modelación para desarrollar pronósticos ambientales más precisos.|\n\n\nProfesor e investigadorUniversidad Nacional de Chimborazo\n\n\nGerente de OperacionesPartículas SpA\n\n\nConocer mi trayectoria Ver publicaciones\n\n\nResearchGate Scopus LinkedIn GitHub"
   },
   {
-    "objectID": "publicaciones.html#publicaciones-recientes-seleccionadas",
-    "href": "publicaciones.html#publicaciones-recientes-seleccionadas",
-    "title": "Publicaciones",
-    "section": "Publicaciones recientes seleccionadas",
-    "text": "Publicaciones recientes seleccionadas\nLa selección siguiente ofrece una entrada rápida a las principales líneas de investigación. Se muestran únicamente los registros marcados como Publicar = Sí en la matriz maestra.\n\nA Century of Vehicular Emissions in Brazil: Unveiling the Impacts of Unique Fuel Mix on Air Quality.\nEnvironmental Science & Technology, 2026.\nhttps://doi.org/10.1021/acs.est.5c08400\n\n\nEvaluating and Optimizing Air Quality Forecasting for Critical Particulate Matter Episodes in the Santiago Metropolitan Region, Chile.\nSustainability, 2026, 18(8), 3652.\nhttps://doi.org/10.3390/su18083652\n\n\nScientific Mapping of Mining Expansion in Ecuador: A PRISMA Systematic Review of Territorial Change and Biosanitary Implications in Latin America.\nEnvironments, 2026, 13(5), 235.\nhttps://doi.org/10.3390/environments13050235\n\n\nMicroplastic Contamination in Latin American Drinking Water and Food Chains: Exposure Assessment, Toxicological Mechanisms, and Public Health Implications in Vulnerable Populations.\nMicroplastics, 2026, 5(2), 117.\nhttps://doi.org/10.3390/microplastics5020117\n\n\nUrban Air Pollution in the Global South: A Never-Ending Crisis?\nAtmosphere, 2025, 16(5), 487.\nhttps://doi.org/10.3390/atmos16050487\n\n\nProlonged Power Outages and Air Quality: Insights from Quito’s 2023–2024 Energy Crisis.\nAtmosphere, 2025, 16(3), 274.\nhttps://doi.org/10.3390/atmos16030274\n\n\nEnhancing Air Quality Predictions in Chile: Integrating ARIMA and Artificial Neural Network Models for Quintero and Coyhaique Cities.\nPLOS ONE, 2025, 20(1).\nhttps://doi.org/10.1371/journal.pone.0314278\n\n\nSimulation of the Air Quality and Evaluation of a Future District Heating System in Valdivia, Chile.\nAtmospheric Pollution Research, 2024, 15(10).\nhttps://doi.org/10.1016/j.apr.2024.102255\n\n\nAn Environmental Assessment for Municipal Organic Waste and Sludge Treated by Hydrothermal Carbonization.\nScience of the Total Environment, 2022.\nhttps://doi.org/10.1016/j.scitotenv.2022.154474\n\n\nValorization of Oat Husk by Hydrothermal Carbonization: Optimization of Process Parameters and Anaerobic Digestion of Spent Liquors.\nBioresource Technology, 2021.\nhttps://doi.org/10.1016/j.biortech.2021.126112"
+    "objectID": "index.html#investigación-orientada-a-problemas-reales",
+    "href": "index.html#investigación-orientada-a-problemas-reales",
+    "title": "Fidel Vallejo Gallardo, PhD",
+    "section": "Investigación orientada a problemas reales",
+    "text": "Investigación orientada a problemas reales\nMi trabajo integra fundamentos de ingeniería, modelación computacional y análisis de datos para abordar desafíos ambientales e industriales.\n\n\n01\n\nCalidad del aire\nModelación de dispersión, inventarios de emisiones, pronóstico de episodios críticos y evaluación de medidas de control.\n\n\n\n02\n\nCiencia de datos e IA\nModelos estadísticos, aprendizaje automático, redes neuronales y automatización de análisis ambientales.\n\n\n\n03\n\nProcesos y simulación\nModelación matemática, CFD y optimización multiobjetivo de sistemas industriales y ambientales.\n\n\n\n04\n\nBioenergía y circularidad\nValorización de residuos mediante carbonización hidrotérmica, pirólisis, gasificación y análisis de ciclo de vida."
   },
   {
-    "objectID": "publicaciones.html#identificadores-académicos",
-    "href": "publicaciones.html#identificadores-académicos",
-    "title": "Publicaciones",
-    "section": "Identificadores académicos",
-    "text": "Identificadores académicos\n\nScopus Author ID: 57211057346\nORCID: 0000-0001-5835-298X"
+    "objectID": "index.html#academia-e-industria",
+    "href": "index.html#academia-e-industria",
+    "title": "Fidel Vallejo Gallardo, PhD",
+    "section": "Academia e industria",
+    "text": "Academia e industria\nLa docencia, la formación de investigadores y la producción científica son desarrolladas en la Universidad Nacional de Chimborazo. Paralelamente, desde Partículas SpA son coordinados proyectos de ingeniería y plataformas tecnológicas para la gestión de la calidad del aire.\nTrayectoria profesional →"
+  },
+  {
+    "objectID": "index.html#un-ecosistema-técnico-para-investigar-y-construir",
+    "href": "index.html#un-ecosistema-técnico-para-investigar-y-construir",
+    "title": "Fidel Vallejo Gallardo, PhD",
+    "section": "Un ecosistema técnico para investigar y construir",
+    "text": "Un ecosistema técnico para investigar y construir\n\nLas herramientas son seleccionadas según la naturaleza del problema. Se combinan lenguajes de programación, modelos físicos y plataformas de simulación para mantener trazabilidad entre los datos, los supuestos y las decisiones.\n\n\nRPythonWRFCALPUFFOpenFOAMDWSIMQuartoGitHub"
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Para consultas académicas, colaboraciones de investigación o asuntos profesionales pueden utilizarse los siguientes canales.\n\n\n\nfvallejog@yahoo.com\n\n\n\nfidel.vallejo@unach.edu.ec\n\n\n\nfidel.vallejo@particulas.cl"
+  },
+  {
+    "objectID": "contacto.html#contacto-directo",
+    "href": "contacto.html#contacto-directo",
+    "title": "Contacto",
+    "section": "",
+    "text": "Para consultas académicas, colaboraciones de investigación o asuntos profesionales pueden utilizarse los siguientes canales.\n\n\n\nfvallejog@yahoo.com\n\n\n\nfidel.vallejo@unach.edu.ec\n\n\n\nfidel.vallejo@particulas.cl"
+  },
+  {
+    "objectID": "contacto.html#perfiles",
+    "href": "contacto.html#perfiles",
+    "title": "Contacto",
+    "section": "Perfiles",
+    "text": "Perfiles\n\nLinkedIn\nResearchGate\nScopus\nGitHub\nORCID"
+  },
+  {
+    "objectID": "contacto.html#afiliaciones-actuales",
+    "href": "contacto.html#afiliaciones-actuales",
+    "title": "Contacto",
+    "section": "Afiliaciones actuales",
+    "text": "Afiliaciones actuales\n\nUniversidad Nacional de Chimborazo — Profesor e investigador.\nPartículas SpA — Gerente de Operaciones.\n\n\n\n\n\n\n\nNota\n\n\n\nEste es un sitio profesional personal. Los contenidos y opiniones presentados no representan necesariamente la posición institucional de las organizaciones con las que se mantiene afiliación."
   },
   {
     "objectID": "perfil.html",
@@ -180,41 +215,6 @@
     "title": "Perfil",
     "section": "Áreas de especialización",
     "text": "Áreas de especialización\n\nGestión y modelación avanzada de la calidad del aire.\nEstadística, ciencia de datos, inteligencia artificial y programación en R y Python.\nCFD, modelación matemática y optimización de procesos.\nValorización energética de residuos, bioenergía y economía circular.\nDirección y gestión de proyectos de investigación y desarrollo."
-  },
-  {
-    "objectID": "contacto.html",
-    "href": "contacto.html",
-    "title": "Contacto",
-    "section": "",
-    "text": "Para consultas académicas, colaboraciones de investigación o asuntos profesionales pueden utilizarse los siguientes canales.\n\n\n\nfvallejog@yahoo.com\n\n\n\nfidel.vallejo@unach.edu.ec\n\n\n\nfidel.vallejo@particulas.cl"
-  },
-  {
-    "objectID": "contacto.html#contacto-directo",
-    "href": "contacto.html#contacto-directo",
-    "title": "Contacto",
-    "section": "",
-    "text": "Para consultas académicas, colaboraciones de investigación o asuntos profesionales pueden utilizarse los siguientes canales.\n\n\n\nfvallejog@yahoo.com\n\n\n\nfidel.vallejo@unach.edu.ec\n\n\n\nfidel.vallejo@particulas.cl"
-  },
-  {
-    "objectID": "contacto.html#perfiles",
-    "href": "contacto.html#perfiles",
-    "title": "Contacto",
-    "section": "Perfiles",
-    "text": "Perfiles\n\nLinkedIn\nResearchGate\nScopus\nGitHub\nORCID"
-  },
-  {
-    "objectID": "contacto.html#afiliaciones-actuales",
-    "href": "contacto.html#afiliaciones-actuales",
-    "title": "Contacto",
-    "section": "Afiliaciones actuales",
-    "text": "Afiliaciones actuales\n\nUniversidad Nacional de Chimborazo — Profesor e investigador.\nPartículas SpA — Gerente de Operaciones.\n\n\n\n\n\n\n\nNota\n\n\n\nEste es un sitio profesional personal. Los contenidos y opiniones presentados no representan necesariamente la posición institucional de las organizaciones con las que se mantiene afiliación."
-  },
-  {
-    "objectID": "posts/bienvenida/index.html",
-    "href": "posts/bienvenida/index.html",
-    "title": "Una bitácora para conectar ingeniería, datos y ambiente",
-    "section": "",
-    "text": "Este sitio ha sido concebido como un espacio para compartir experiencias, métodos y resultados relacionados con ingeniería de procesos, calidad del aire, ciencia de datos y sostenibilidad.\nLas publicaciones abordan problemas concretos mediante ejemplos reproducibles, notas metodológicas, herramientas abiertas y reflexiones derivadas de la investigación, la docencia y el desarrollo de proyectos aplicados.\nEl propósito va más allá de presentar resultados terminados. Las decisiones metodológicas, las limitaciones y los aprendizajes también forman parte del análisis, con utilidad para estudiantes, investigadores y profesionales.\n\n\n\n Volver arriba"
   },
   {
     "objectID": "investigacion.html",

@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fvallejog.github.io/index.html</loc>
-    <lastmod>2026-10-21T10:50:00.491Z</lastmod>
-  </url>
-  <url>
     <loc>https://fvallejog.github.io/docencia.html</loc>
-    <lastmod>2026-10-21T10:50:00.473Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/blog.html</loc>
-    <lastmod>2026-10-21T10:50:00.473Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/proyectos.html</loc>
-    <lastmod>2026-10-21T10:50:00.492Z</lastmod>
+    <lastmod>2026-10-21T10:56:31.151Z</lastmod>
   </url>
   <url>
     <loc>https://fvallejog.github.io/publicaciones.html</loc>
-    <lastmod>2026-10-21T10:50:00.492Z</lastmod>
+    <lastmod>2026-10-21T10:56:31.160Z</lastmod>
   </url>
   <url>
-    <loc>https://fvallejog.github.io/perfil.html</loc>
-    <lastmod>2026-10-21T10:50:00.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/contacto.html</loc>
-    <lastmod>2026-10-21T10:50:00.473Z</lastmod>
+    <loc>https://fvallejog.github.io/blog.html</loc>
+    <lastmod>2026-10-21T10:56:31.151Z</lastmod>
   </url>
   <url>
     <loc>https://fvallejog.github.io/posts/bienvenida/index.html</loc>
-    <lastmod>2026-10-21T10:50:00.492Z</lastmod>
+    <lastmod>2026-10-21T10:56:31.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/proyectos.html</loc>
+    <lastmod>2026-10-21T10:56:31.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/index.html</loc>
+    <lastmod>2026-10-21T10:56:31.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/contacto.html</loc>
+    <lastmod>2026-10-21T10:56:31.151Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/perfil.html</loc>
+    <lastmod>2026-10-21T10:56:31.159Z</lastmod>
   </url>
   <url>
     <loc>https://fvallejog.github.io/investigacion.html</loc>
-    <lastmod>2026-10-21T10:50:00.491Z</lastmod>
+    <lastmod>2026-10-21T10:56:31.159Z</lastmod>
   </url>
 </urlset>
