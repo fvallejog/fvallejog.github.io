@@ -3,64 +3,13 @@ title: "Proyectos y software"
 description-meta: "Selección de proyectos científicos, tecnológicos y de software."
 ---
 
-Esta selección reúne iniciativas públicas o descritas en antecedentes profesionales. Los resultados sujetos a confidencialidad empresarial no son expuestos.
+{{< include _generated/texto_proyectos_intro.md >}}
 
-Los proyectos han sido desarrollados en distintos niveles de madurez: investigación académica, pruebas de concepto, desarrollo de software y operación de sistemas ambientales. En todos ellos se ha procurado conectar la formulación técnica con una necesidad concreta de análisis, gestión o decisión.
+Los proyectos se encuentran en distintos niveles de madurez: investigación académica, pruebas de concepto, desarrollo de software y operación de sistemas ambientales.
 
-::: {.project-metrics}
-::: {}
-<strong>30+</strong>
-<span>proyectos ambientales e industriales coordinados</span>
-:::
-::: {}
-<strong>20</strong>
-<span>trabajos de investigación dirigidos o supervisados</span>
-:::
-::: {}
-<strong>9</strong>
-<span>proyectos de I+D y cooperación con participación</span>
-:::
-::: {}
-<strong>4</strong>
-<span>líneas de investigación articuladas</span>
-:::
-:::
+{{< include _generated/indicadores_proyectos.md >}}
 
-## Software abierto
-
-::: {.project-card .project-featured}
-<p class="eyebrow">R · DATOS ABIERTOS · CALIDAD DEL AIRE</p>
-
-### AirEcuador
-
-Paquete orientado a la descarga, extracción y análisis de datos ambientales de Quito, incluidas concentraciones de PM~2.5~, CO y NO₂. Su desarrollo busca facilitar el acceso reproducible a información pública para investigación y docencia.
-
-[Repositorio en GitHub](https://github.com/fvallejog/AirEcuador){.btn .btn-primary}
-:::
-
-## Desarrollo tecnológico
-
-### AirCFD — CORFO 21CV-171780
-
-Desarrollo y protección de una solución de modelación CFD aplicada a calidad del aire. El proyecto fue dirigido con énfasis en integración de modelos y transferencia tecnológica.
-
-### Plataforma inteligente de reportería — CORFO 23CVI-245881
-
-Desarrollo de una plataforma integrada para automatizar el procesamiento, visualización y reporte de información de aire y agua.
-
-### Sistemas ambientales aplicados
-
-Desde Partículas SpA han sido coordinados proyectos que integran modelación atmosférica, pronóstico de calidad del aire, paneles de visualización y generación automática de reportes. La información específica de clientes es mantenida bajo confidencialidad.
-
-En estos desarrollos han debido ser articulados equipos técnicos, bases de datos, modelos numéricos y necesidades operacionales. Por ello, el resultado no es entendido únicamente como un informe: también puede ser materializado como un flujo automatizado, una plataforma de consulta o un sistema de alerta y seguimiento.
-
-## Investigación aplicada
-
-- Modelos ARIMA y redes neuronales para predicción de calidad del aire.
-- Evaluación y optimización de pronósticos de episodios críticos de material particulado.
-- Modelación CFD de biofiltros y procesos ambientales.
-- Valorización de biomasa y residuos mediante carbonización hidrotérmica y gasificación.
-- Análisis de ciclo de vida y optimización multiobjetivo de alternativas de aprovechamiento energético.
+{{< include _generated/proyectos.md >}}
 
 ## Cómo son abordados los proyectos
 
