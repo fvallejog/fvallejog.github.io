@@ -235,3 +235,4 @@ def principal():
 
 if __name__ == "__main__":
     principal()
+# La publicación automática se activa al actualizar la matriz.
