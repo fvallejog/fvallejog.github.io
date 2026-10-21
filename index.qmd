@@ -36,7 +36,7 @@ toc: false
 ::: {.content-band}
 ## Investigación orientada a problemas reales
 
-Mi trabajo integra fundamentos de ingeniería, modelación computacional y análisis de datos para abordar desafíos ambientales e industriales. La investigación académica es conectada con el desarrollo de soluciones aplicadas para organizaciones públicas y privadas.
+{{< include _generated/texto_inicio_investigacion.md >}}
 
 ::: {.research-grid}
 ::: {.research-card}
@@ -93,20 +93,7 @@ Herramienta en R para descargar, extraer y analizar datos abiertos de calidad de
 :::
 :::
 
-::: {.metrics-strip}
-::: {}
-<strong>+30</strong>
-<span>publicaciones científicas</span>
-:::
-::: {}
-<strong>+10 años</strong>
-<span>de docencia e investigación</span>
-:::
-::: {}
-<strong>2018–actualidad</strong>
-<span>experiencia en proyectos ambientales</span>
-:::
-:::
+{{< include _generated/indicadores_inicio.md >}}
 
 ::: {.toolkit-section}
 <p class="eyebrow">HERRAMIENTAS Y MÉTODOS</p>
@@ -115,7 +102,5 @@ Herramienta en R para descargar, extraer y analizar datos abiertos de calidad de
 
 <p>Las herramientas son seleccionadas según la naturaleza del problema. Se combinan lenguajes de programación, modelos físicos y plataformas de simulación para mantener trazabilidad entre los datos, los supuestos y las decisiones.</p>
 
-::: {.toolkit-tags}
-<span>R</span><span>Python</span><span>WRF</span><span>CALPUFF</span><span>OpenFOAM</span><span>DWSIM</span><span>Quarto</span><span>GitHub</span>
-:::
+{{< include _generated/herramientas_inicio.md >}}
 :::
