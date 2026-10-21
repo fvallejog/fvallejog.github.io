@@ -182,28 +182,34 @@ def principal():
     escribir("enlaces_academicos.md", "\n".join(botones))
 
     proys = []
-    tipo_anterior = None
+    tipos = []
     for fila in proyectos:
         tipo = limpio(fila.get("Tipo")) or "Otros proyectos"
-        if tipo != tipo_anterior:
-            proys.extend([f"## {e(tipo)}", ""])
-            tipo_anterior = tipo
-        nombre = limpio(fila.get("Nombre"))
-        codigo = limpio(fila.get("Código"))
-        titulo = f"{nombre} — {codigo}" if codigo else nombre
-        destacado = limpio(fila.get("Observaciones")).casefold() == "proyecto destacado"
-        if destacado:
-            proys.append("::: {.project-card .project-featured}")
-            tecnologias = " · ".join(x.strip() for x in limpio(fila.get("Tecnologías")).split(";") if x.strip()).upper()
-            if tecnologias:
-                proys.append(f'<p class="eyebrow">{e(tecnologias)}</p>')
-            proys.append("")
-        proys.extend([f"### {e(titulo)}", "", e(fila.get("Descripción pública")), ""])
-        url = limpio(fila.get("URL"))
-        if url:
-            proys.extend([f"[Repositorio en GitHub]({url}){{.btn .btn-primary}}", ""])
-        if destacado:
-            proys.extend([":::", ""])
+        if tipo not in tipos:
+            tipos.append(tipo)
+
+    for tipo in tipos:
+        proys.extend([f"## {e(tipo)}", ""])
+        for fila in proyectos:
+            tipo_fila = limpio(fila.get("Tipo")) or "Otros proyectos"
+            if tipo_fila != tipo:
+                continue
+            nombre = limpio(fila.get("Nombre"))
+            codigo = limpio(fila.get("Código"))
+            titulo = f"{nombre} — {codigo}" if codigo else nombre
+            destacado = limpio(fila.get("Observaciones")).casefold() == "proyecto destacado"
+            if destacado:
+                proys.append("::: {.project-card .project-featured}")
+                tecnologias = " · ".join(x.strip() for x in limpio(fila.get("Tecnologías")).split(";") if x.strip()).upper()
+                if tecnologias:
+                    proys.append(f'<p class="eyebrow">{e(tecnologias)}</p>')
+                proys.append("")
+            proys.extend([f"### {e(titulo)}", "", e(fila.get("Descripción pública")), ""])
+            url = limpio(fila.get("URL"))
+            if url:
+                proys.extend([f"[Repositorio en GitHub]({url}){{.btn .btn-primary}}", ""])
+            if destacado:
+                proys.extend([":::", ""])
     escribir("proyectos.md", "\n".join(proys))
 
     exp = ["::: {.timeline}"]
