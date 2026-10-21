@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fvallejog.github.io/contacto.html</loc>
-    <lastmod>2026-08-27T16:58:33.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/posts/bienvenida/index.html</loc>
-    <lastmod>2026-08-27T20:38:44.790Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/investigacion.html</loc>
-    <lastmod>2026-08-27T20:38:44.310Z</lastmod>
-  </url>
-  <url>
     <loc>https://fvallejog.github.io/index.html</loc>
-    <lastmod>2026-08-27T20:06:18.327Z</lastmod>
+    <lastmod>2026-10-21T10:50:00.491Z</lastmod>
   </url>
   <url>
     <loc>https://fvallejog.github.io/docencia.html</loc>
-    <lastmod>2026-08-27T20:38:45.010Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/perfil.html</loc>
-    <lastmod>2026-08-27T16:58:32.610Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fvallejog.github.io/publicaciones.html</loc>
-    <lastmod>2026-08-27T20:38:44.906Z</lastmod>
+    <lastmod>2026-10-21T10:50:00.473Z</lastmod>
   </url>
   <url>
     <loc>https://fvallejog.github.io/blog.html</loc>
-    <lastmod>2026-08-27T20:38:44.602Z</lastmod>
+    <lastmod>2026-10-21T10:50:00.473Z</lastmod>
   </url>
   <url>
     <loc>https://fvallejog.github.io/proyectos.html</loc>
-    <lastmod>2026-08-27T20:38:44.418Z</lastmod>
+    <lastmod>2026-10-21T10:50:00.492Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/publicaciones.html</loc>
+    <lastmod>2026-10-21T10:50:00.492Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/perfil.html</loc>
+    <lastmod>2026-10-21T10:50:00.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/contacto.html</loc>
+    <lastmod>2026-10-21T10:50:00.473Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/posts/bienvenida/index.html</loc>
+    <lastmod>2026-10-21T10:50:00.492Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fvallejog.github.io/investigacion.html</loc>
+    <lastmod>2026-10-21T10:50:00.491Z</lastmod>
   </url>
 </urlset>
