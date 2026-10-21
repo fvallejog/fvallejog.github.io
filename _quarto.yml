@@ -45,7 +45,7 @@ website:
         href: "mailto:fvallejog@yahoo.com"
   page-footer:
     border: true
-    left: "© 2026 Fidel Vallejo Gallardo · Sitio profesional personal"
+    left: '© 2026 Fidel Vallejo Gallardo · Sitio profesional personal · <span class="visitor-counter">Visitas registradas: <span id="goatcounter-total">…</span></span>'
     right:
       - text: ResearchGate
         href: "https://www.researchgate.net/profile/Fidel-Vallejo?ev=hdr_xprf"
@@ -67,7 +67,7 @@ format:
     link-external-newwindow: true
     code-copy: true
     code-overflow: wrap
-    include-after-body: typing.html
+    include-after-body:\n      - typing.html\n      - goatcounter.html
 
 execute:
   freeze: false
