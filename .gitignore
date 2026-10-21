@@ -4,6 +4,7 @@
 .RData
 .DS_Store
 Thumbs.db
+__pycache__/
 /*.html
 !typing.html
 /*.feed-full-staged

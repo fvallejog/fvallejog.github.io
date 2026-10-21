@@ -171,31 +171,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>La producción científica comprende calidad del aire, bioenergía, economía circular, simulación de procesos y evaluación ambiental. La relación completa y las métricas actualizadas pueden ser consultadas en <a href="https://www.scopus.com/authid/detail.uri?authorId=57211057346">Scopus</a> y <a href="https://www.researchgate.net/profile/Fidel-Vallejo?ev=hdr_xprf">ResearchGate</a>.</p>
-<p>Los artículos han sido desarrollados mediante colaboración con investigadores de Ecuador, Chile y otros países. En ellos han sido combinados estudios experimentales, modelación numérica, análisis estadístico, revisiones sistemáticas y evaluación ambiental. Se ha buscado que cada publicación contribuya tanto al conocimiento disciplinar como a la comprensión de problemas regionales concretos.</p>
+<p>La producción científica comprende calidad del aire, bioenergía, economía circular, simulación de procesos y evaluación ambiental.</p>
+<p>Los artículos han sido desarrollados mediante colaboración con investigadores de Ecuador, Chile y otros países. En ellos han sido combinados estudios experimentales, modelación numérica, análisis estadístico, revisiones sistemáticas y evaluación ambiental.</p>
 <div class="publication-metrics">
 <div>
-<p><strong>477+</strong> <span>citas registradas</span></p>
+<p><strong>501</strong> <span>citas registradas</span></p>
 </div>
 <div>
 <p><strong>15</strong> <span>índice h</span></p>
 </div>
 <div>
-<p><strong>19</strong> <span>documentos con 10+ citas</span></p>
+<p><strong>19</strong> <span>documentos con 10 o más citas</span></p>
 </div>
 <div>
-<p><strong>30+</strong> <span>artículos indexados</span></p>
+<p><strong>35+</strong> <span>artículos indexados</span></p>
 </div>
 </div>
 <p class="metrics-note">
-Indicadores referenciales del último corte curricular de 2026. Los valores pueden variar entre bases; se incluyen enlaces directos a Scopus y ResearchGate para consultar la información actualizada.
+Indicadores referenciales del corte registrado en la matriz maestra. Los valores pueden variar entre bases; se incluyen enlaces directos para consultar la información actualizada.
 </p>
 <div class="academic-links">
 <p><a href="https://www.scopus.com/authid/detail.uri?authorId=57211057346" class="btn btn-primary">Scopus</a> <a href="https://www.researchgate.net/profile/Fidel-Vallejo?ev=hdr_xprf" class="btn btn-outline-primary">ResearchGate</a> <a href="https://orcid.org/0000-0001-5835-298X" class="btn btn-outline-secondary">ORCID</a></p>
 </div>
 <section id="publicaciones-recientes-seleccionadas" class="level2">
 <h2 class="anchored" data-anchor-id="publicaciones-recientes-seleccionadas">Publicaciones recientes seleccionadas</h2>
-<p>La selección siguiente muestra trabajos recientes representativos. No se pretende reemplazar los perfiles bibliográficos completos, sino ofrecer una entrada rápida a las principales líneas de investigación.</p>
+<p>La selección siguiente ofrece una entrada rápida a las principales líneas de investigación. Se muestran únicamente los registros marcados como <code>Publicar = Sí</code> en la matriz maestra.</p>
 <div class="publication-item">
 <p><strong>A Century of Vehicular Emissions in Brazil: Unveiling the Impacts of Unique Fuel Mix on Air Quality.</strong><br>
 <em>Environmental Science &amp; Technology</em>, 2026.<br>
@@ -299,6 +299,45 @@ Indicadores referenciales del último corte curricular de 2026. Los valores pued
 
   target.textContent = '';
   window.setTimeout(type, 450);
+})();
+</script>
+<!-- GoatCounter: analítica y contador total -->
+<script data-goatcounter="https://fvallejog.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script>
+(() => {
+  const iniciarContador = () => {
+    let total = document.querySelector('#goatcounter-total');
+
+    if (!total) {
+      const pie = document.querySelector('.nav-footer-left, .nav-footer-center, footer');
+      if (!pie) return;
+
+      const etiqueta = document.createElement('span');
+      etiqueta.className = 'visitor-counter';
+      etiqueta.innerHTML = ' · Visitas registradas: <span id="goatcounter-total">…</span>';
+      pie.appendChild(etiqueta);
+      total = etiqueta.querySelector('#goatcounter-total');
+    }
+
+    fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
+      .then((response) => {
+        if (!response.ok) throw new Error('No se pudo consultar el contador');
+        return response.json();
+      })
+      .then((data) => {
+        total.textContent = data.count;
+      })
+      .catch(() => {
+        const etiqueta = total.closest('.visitor-counter');
+        if (etiqueta) etiqueta.hidden = true;
+      });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', iniciarContador);
+  } else {
+    iniciarContador();
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -710,7 +749,7 @@ Indicadores referenciales del último corte curricular de 2026. Los valores pued
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Fidel Vallejo Gallardo · Sitio profesional personal</p>
+<p>© 2026 Fidel Vallejo Gallardo · Sitio profesional personal · <span class="visitor-counter">Visitas registradas: <span id="goatcounter-total">…</span></span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -741,44 +780,4 @@ Indicadores referenciales del último corte curricular de 2026. Los valores pued
 
 
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
-<!-- GoatCounter: analítica y contador total -->
-<script data-goatcounter="https://fvallejog.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-<script>
-(() => {
-  const iniciarContador = () => {
-    let total = document.querySelector('#goatcounter-total');
-
-    if (!total) {
-      const pie = document.querySelector('.nav-footer-left, .nav-footer-center, footer');
-      if (!pie) return;
-
-      const etiqueta = document.createElement('span');
-      etiqueta.className = 'visitor-counter';
-      etiqueta.innerHTML = ' · Visitas registradas: <span id="goatcounter-total">…</span>';
-      pie.appendChild(etiqueta);
-      total = etiqueta.querySelector('#goatcounter-total');
-    }
-
-    fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
-      .then((response) => {
-        if (!response.ok) throw new Error('No se pudo consultar el contador');
-        return response.json();
-      })
-      .then((data) => {
-        total.textContent = data.count;
-      })
-      .catch(() => {
-        const etiqueta = total.closest('.visitor-counter');
-        if (etiqueta) etiqueta.hidden = true;
-      });
-  };
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', iniciarContador);
-  } else {
-    iniciarContador();
-  }
-})();
-</script>
 </body></html>

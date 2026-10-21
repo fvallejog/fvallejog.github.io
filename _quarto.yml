@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-  pre-render: python scripts/generar_contenido_web.py
   resources:
     - .nojekyll
 
@@ -67,7 +66,9 @@ format:
     link-external-newwindow: true
     code-copy: true
     code-overflow: wrap
-    include-after-body:\n      - typing.html\n      - goatcounter.html
+    include-after-body:
+      - typing.html
+      - goatcounter.html
 
 execute:
   freeze: false

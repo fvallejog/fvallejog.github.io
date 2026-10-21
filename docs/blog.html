@@ -256,7 +256,7 @@ CLIMA · QUITO · DIVULGACIÓN CIENTÍFICA
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="SW52ZXN0aWdhY2klQzMlQjNuJTJDSW5nZW5pZXIlQzMlQURhJTJDRGF0b3M=" data-listing-date-sort="1787806800000" data-listing-file-modified-sort="1787863124790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="g-col-1" data-index="0" data-categories="SW52ZXN0aWdhY2klQzMlQjNuJTJDSW5nZW5pZXIlQzMlQURhJTJDRGF0b3M=" data-listing-date-sort="1787756400000" data-listing-file-modified-sort="1792579800492" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
 <a href="./posts/bienvenida/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -328,6 +328,45 @@ Una bitácora para conectar ingeniería, datos y ambiente
 
   target.textContent = '';
   window.setTimeout(type, 450);
+})();
+</script>
+<!-- GoatCounter: analítica y contador total -->
+<script data-goatcounter="https://fvallejog.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script>
+(() => {
+  const iniciarContador = () => {
+    let total = document.querySelector('#goatcounter-total');
+
+    if (!total) {
+      const pie = document.querySelector('.nav-footer-left, .nav-footer-center, footer');
+      if (!pie) return;
+
+      const etiqueta = document.createElement('span');
+      etiqueta.className = 'visitor-counter';
+      etiqueta.innerHTML = ' · Visitas registradas: <span id="goatcounter-total">…</span>';
+      pie.appendChild(etiqueta);
+      total = etiqueta.querySelector('#goatcounter-total');
+    }
+
+    fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
+      .then((response) => {
+        if (!response.ok) throw new Error('No se pudo consultar el contador');
+        return response.json();
+      })
+      .then((data) => {
+        total.textContent = data.count;
+      })
+      .catch(() => {
+        const etiqueta = total.closest('.visitor-counter');
+        if (etiqueta) etiqueta.hidden = true;
+      });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', iniciarContador);
+  } else {
+    iniciarContador();
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -739,7 +778,7 @@ Una bitácora para conectar ingeniería, datos y ambiente
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Fidel Vallejo Gallardo · Sitio profesional personal</p>
+<p>© 2026 Fidel Vallejo Gallardo · Sitio profesional personal · <span class="visitor-counter">Visitas registradas: <span id="goatcounter-total">…</span></span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -770,44 +809,4 @@ Una bitácora para conectar ingeniería, datos y ambiente
 
 
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
-<!-- GoatCounter: analítica y contador total -->
-<script data-goatcounter="https://fvallejog.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-<script>
-(() => {
-  const iniciarContador = () => {
-    let total = document.querySelector('#goatcounter-total');
-
-    if (!total) {
-      const pie = document.querySelector('.nav-footer-left, .nav-footer-center, footer');
-      if (!pie) return;
-
-      const etiqueta = document.createElement('span');
-      etiqueta.className = 'visitor-counter';
-      etiqueta.innerHTML = ' · Visitas registradas: <span id="goatcounter-total">…</span>';
-      pie.appendChild(etiqueta);
-      total = etiqueta.querySelector('#goatcounter-total');
-    }
-
-    fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
-      .then((response) => {
-        if (!response.ok) throw new Error('No se pudo consultar el contador');
-        return response.json();
-      })
-      .then((data) => {
-        total.textContent = data.count;
-      })
-      .catch(() => {
-        const etiqueta = total.closest('.visitor-counter');
-        if (etiqueta) etiqueta.hidden = true;
-      });
-  };
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', iniciarContador);
-  } else {
-    iniciarContador();
-  }
-})();
-</script>
 </body></html>

@@ -176,7 +176,7 @@ Integro ingeniería, datos y modelación para desarrollar <span class="typing-te
 </div>
 <section id="investigación-orientada-a-problemas-reales" class="level2 content-band">
 <h2 class="anchored" data-anchor-id="investigación-orientada-a-problemas-reales">Investigación orientada a problemas reales</h2>
-<p>Mi trabajo integra fundamentos de ingeniería, modelación computacional y análisis de datos para abordar desafíos ambientales e industriales. La investigación académica es conectada con el desarrollo de soluciones aplicadas para organizaciones públicas y privadas.</p>
+<p>Mi trabajo integra fundamentos de ingeniería, modelación computacional y análisis de datos para abordar desafíos ambientales e industriales.</p>
 <div class="research-grid">
 <div class="research-card">
 <p><span class="card-number">01</span></p>
@@ -227,13 +227,13 @@ PROYECTO ABIERTO
 </div>
 <div class="metrics-strip">
 <div>
-<p><strong>+30</strong> <span>publicaciones científicas</span></p>
-</div>
-<div>
-<p><strong>+10 años</strong> <span>de docencia e investigación</span></p>
-</div>
-<div>
 <p><strong>2018–actualidad</strong> <span>experiencia en proyectos ambientales</span></p>
+</div>
+<div>
+<p><strong>+35</strong> <span>publicaciones científicas</span></p>
+</div>
+<div>
+<p><strong>+10años</strong> <span>años de docencia e investigación</span></p>
 </div>
 </div>
 <div class="toolkit-section">
@@ -295,6 +295,45 @@ Las herramientas son seleccionadas según la naturaleza del problema. Se combina
 
   target.textContent = '';
   window.setTimeout(type, 450);
+})();
+</script>
+<!-- GoatCounter: analítica y contador total -->
+<script data-goatcounter="https://fvallejog.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script>
+(() => {
+  const iniciarContador = () => {
+    let total = document.querySelector('#goatcounter-total');
+
+    if (!total) {
+      const pie = document.querySelector('.nav-footer-left, .nav-footer-center, footer');
+      if (!pie) return;
+
+      const etiqueta = document.createElement('span');
+      etiqueta.className = 'visitor-counter';
+      etiqueta.innerHTML = ' · Visitas registradas: <span id="goatcounter-total">…</span>';
+      pie.appendChild(etiqueta);
+      total = etiqueta.querySelector('#goatcounter-total');
+    }
+
+    fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
+      .then((response) => {
+        if (!response.ok) throw new Error('No se pudo consultar el contador');
+        return response.json();
+      })
+      .then((data) => {
+        total.textContent = data.count;
+      })
+      .catch(() => {
+        const etiqueta = total.closest('.visitor-counter');
+        if (etiqueta) etiqueta.hidden = true;
+      });
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', iniciarContador);
+  } else {
+    iniciarContador();
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -706,7 +745,7 @@ Las herramientas son seleccionadas según la naturaleza del problema. Se combina
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Fidel Vallejo Gallardo · Sitio profesional personal</p>
+<p>© 2026 Fidel Vallejo Gallardo · Sitio profesional personal · <span class="visitor-counter">Visitas registradas: <span id="goatcounter-total">…</span></span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -737,44 +776,4 @@ Las herramientas son seleccionadas según la naturaleza del problema. Se combina
 
 
 <script src="site_libs/quarto-html/zenscroll-min.js"></script>
-<!-- GoatCounter: analítica y contador total -->
-<script data-goatcounter="https://fvallejog.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-<script>
-(() => {
-  const iniciarContador = () => {
-    let total = document.querySelector('#goatcounter-total');
-
-    if (!total) {
-      const pie = document.querySelector('.nav-footer-left, .nav-footer-center, footer');
-      if (!pie) return;
-
-      const etiqueta = document.createElement('span');
-      etiqueta.className = 'visitor-counter';
-      etiqueta.innerHTML = ' · Visitas registradas: <span id="goatcounter-total">…</span>';
-      pie.appendChild(etiqueta);
-      total = etiqueta.querySelector('#goatcounter-total');
-    }
-
-    fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
-      .then((response) => {
-        if (!response.ok) throw new Error('No se pudo consultar el contador');
-        return response.json();
-      })
-      .then((data) => {
-        total.textContent = data.count;
-      })
-      .catch(() => {
-        const etiqueta = total.closest('.visitor-counter');
-        if (etiqueta) etiqueta.hidden = true;
-      });
-  };
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', iniciarContador);
-  } else {
-    iniciarContador();
-  }
-})();
-</script>
 </body></html>
