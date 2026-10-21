@@ -9,7 +9,8 @@ on:
       - "*.qmd"
       - "_quarto.yml"
       - "styles.scss"
-      - "assets/**"\n      - "*.html"
+      - "assets/**"
+      - "*.html"
   workflow_dispatch:
 
 permissions:
@@ -37,6 +38,9 @@ jobs:
       - name: Configurar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Generar contenido desde la matriz
+        run: python scripts/generar_contenido_web.py
+
       - name: Renderizar sitio
         run: quarto render
 
@@ -44,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
+          git add docs _generated
           if git diff --cached --quiet; then
             echo "No hay cambios compilados."
           else
