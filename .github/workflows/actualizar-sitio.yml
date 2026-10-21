@@ -9,7 +9,7 @@ on:
       - "*.qmd"
       - "_quarto.yml"
       - "styles.scss"
-      - "assets/**"
+      - "assets/**"\n      - "*.html"
   workflow_dispatch:
 
 permissions:
