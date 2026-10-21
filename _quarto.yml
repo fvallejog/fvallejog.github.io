@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  pre-render: python scripts/generar_contenido_web.py
   resources:
     - .nojekyll
 
@@ -69,4 +70,4 @@ format:
     include-after-body: typing.html
 
 execute:
-  freeze: auto
+  freeze: false
