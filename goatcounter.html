@@ -1,0 +1,21 @@
+<script data-goatcounter="https://fvallejog.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<script>
+(() => {
+  const total = document.querySelector('#goatcounter-total');
+  if (!total) return;
+
+  fetch('https://fvallejog.goatcounter.com/counter/TOTAL.json')
+    .then((response) => {
+      if (!response.ok) throw new Error('No se pudo consultar el contador');
+      return response.json();
+    })
+    .then((data) => {
+      total.textContent = data.count;
+    })
+    .catch(() => {
+      const counter = total.closest('.visitor-counter');
+      if (counter) counter.hidden = true;
+    });
+})();
+</script>
